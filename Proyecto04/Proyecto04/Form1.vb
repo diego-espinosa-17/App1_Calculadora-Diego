@@ -29,11 +29,17 @@
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles BotonDivision.Click
+
+        Dim resultado
+
         Dim Numero1 As Double = Double.Parse(Me.TXTBXNumero1.Text)
         Dim Numero2 As Double = Double.Parse(TXTBXNumero2.Text)
 
-        Dim resultado As Double = Numero1 / Numero2
-
+        If Numero2 > 0 Then
+            resultado = Numero1 / Numero2
+        Else
+            resultado = "No se puede"
+        End If
         Label4.Text = resultado.ToString()
     End Sub
 

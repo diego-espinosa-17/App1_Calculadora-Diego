@@ -90,6 +90,7 @@ Partial Class Form1
         '
         'TXTBXNumero1
         '
+        Me.TXTBXNumero1.Enabled = False
         Me.TXTBXNumero1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TXTBXNumero1.Location = New System.Drawing.Point(213, 62)
         Me.TXTBXNumero1.Name = "TXTBXNumero1"
@@ -99,6 +100,7 @@ Partial Class Form1
         '
         'TXTBXNumero2
         '
+        Me.TXTBXNumero2.Enabled = False
         Me.TXTBXNumero2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TXTBXNumero2.Location = New System.Drawing.Point(213, 146)
         Me.TXTBXNumero2.Name = "TXTBXNumero2"
@@ -269,6 +271,7 @@ Partial Class Form1
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Checked = True
         Me.RadioButton1.Location = New System.Drawing.Point(410, 62)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(90, 17)
